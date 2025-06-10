@@ -81,7 +81,7 @@ function App() {
       <div className='wrapper'>
         <header>
           <h1>The <span className='text-gradient'>Cinema</span></h1>
-          <img src="./public/assets/hero-img.png" alt="hero banner" />
+          <img src="/hero-img.png" alt="hero banner" />
           <h1>Find <span className='text-gradient'>Movies</span> You'll <span className='text-gradient'>Enjoy</span> Without the <sapn className="text-gradient">Hassle</sapn></h1>
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         </header>
